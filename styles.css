@@ -1,0 +1,29 @@
+:root{--accent:#0b63c6;--warn:#d64545;--muted:#445}
+html,body{height:100%;margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:#fff;color:#222}
+header{background:#f5f7fb;padding:18px 20px;border-bottom:3px solid var(--accent)}
+header h1{margin:0;font-size:18px;color:var(--accent)}
+header p{margin:4px 0;color:#333}
+main{max-width:1150px;margin:18px auto;padding:14px}
+.container{background:#fff;border:1px solid #e6eaf0;padding:16px;border-radius:8px}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}
+input,textarea,select{padding:8px;border:1px solid #cfd8e3;border-radius:6px}
+button{background:var(--accent);color:#fff;border:0;padding:8px 12px;border-radius:6px;cursor:pointer}
+button.grey{background:#6b7280}
+.smallbtn{background:#10b981;padding:6px 8px;border-radius:6px}
+.flex{display:flex;gap:12px}
+.cols{display:grid;grid-template-columns:1fr 420px;gap:12px}
+.graph{height:360px;border:1px solid #e6eaf0;border-radius:8px;margin-top:12px}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{border:1px solid #e6eaf0;padding:8px;text-align:left;font-size:14px}
+th{background:#f1f7ff;color:#06224a}
+.code{background:#f7f9fc;border:1px solid #eef3fb;padding:10px;border-radius:6px;font-family:monospace;font-size:13px}
+.note{font-size:13px;color:#444;margin-top:8px}
+.small{font-size:13px;color:#555}
+.sep{height:12px}
+.result{margin-top:8px;padding:8px;border-radius:6px;background:#fbfbfb;border:1px solid #eef3fb}
+/* 
+ * .errorBox: 
+ *   Contenedor para mostrar mensajes de error.
+ *   Establece una caja de fondo blanca con un borde rojo claro, un padding de 8px y un radio de esquina de 6px.
+ */
+.errorBox{margin-top:8px;padding:8px;border-radius:6px;background:#fff3f3;border:1px solid #f5c2c2;color:var(--warn)}
